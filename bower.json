@@ -1,0 +1,13 @@
+{
+  "name": "julian",
+  "description": "",
+  "authors": [
+    "dshopd <ushanskiu@yandex.ru>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/dshopd/news-progect",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "slick-carousel": "slick.js#^1.6.0"
+  }
+}
