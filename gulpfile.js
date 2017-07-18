@@ -7,7 +7,9 @@ var gulp = require("gulp"),
     imagemin = require('gulp-imagemin'),
     pngquant = require('imagemin-pngquant'),
     pug = require("gulp-pug"),
+    concat = require("gulp-concat"),
     wiredep = require("wiredep").stream,
+    cache = require('gulp-cache'),
     browserSync = require('browser-sync').create();
 
 //bower compile 
