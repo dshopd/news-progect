@@ -75,11 +75,12 @@ gulp.task("js", function () {
 	return gulp.src('app/js/main.js')
 		.pipe(gulp.dest('app/js/'))
 		.pipe(browserSync.stream());
-})
+});
 
 gulp.task("script", function () {
 	return gulp.src([
 			'app/bower_components/jquery/dist/jquery.min.js',
+			'app/bower_components/slick-carousel/slick/slick.min.js',
 		])
 		.pipe(concat('libs.min.js'))
 		.pipe(gulp.dest('app/js/'))
